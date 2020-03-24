@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#___gatsby,
+#___gatsby > div {
+  height: 100%;
+}
