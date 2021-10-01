@@ -12,6 +12,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            keywords
           }
         }
       }
@@ -26,11 +27,18 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title || site.siteMetadata.title}
-      //titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
+        {
+          name: 'facebook-domain-verification',
+          content: 'jc6x603xkxozittm488bylvz3854m7'
+        },
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: 'keywords',
+          content: site.siteMetadata.keywords
         },
         {
           property: `og:title`,

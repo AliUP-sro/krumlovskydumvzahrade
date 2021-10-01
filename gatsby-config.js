@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://krumlovskydumvzahrade.cz',
     title: `Krumlovský dům v zahradě`,
-    description: `Page description`,
+    description: `Krumlovský dům v zahradě. Ubytování v Krumlovské zahradě se může stát skvělým ýchozím bodem pro Vaše zážitky.`,
     author: `AliUP s.r.o. <aliup.cz>`,
+    keywords: 'ubytování,krumlov,dum,v,zahrade,zážitek,krumlovsky'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -28,5 +30,7 @@ module.exports = {
     //   },
     // },
     `gatsby-plugin-smoothscroll`,
+    'gatsby-plugin-robots-txt',
+    'gatsby-plugin-sitemap'
   ],
 }
