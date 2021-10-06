@@ -116,7 +116,7 @@ const IndexPage = ({ location }) => {
             </p>
           </div>
 
-          <Button text="Virtuální prohlídka" to="kd-prohlidka" />
+          <Button text="Virtuální prohlídka" to='http://tomasadamec.com/download/2019-krumlovsky-dum/tour.html' />
           <HeadingText text="Krumlovská chata v zahradě" />
           <div>
             <p>
@@ -178,7 +178,7 @@ const IndexPage = ({ location }) => {
               Pavel Váňa, tel. 608826700
             </div>
             <div className="contact-section-listitem contact-section-listitem--third">
-              info@krumlovskydum.cz
+            michaela.vano@seznam.cz
             </div>
           </div>
         </div>

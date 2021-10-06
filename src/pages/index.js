@@ -456,9 +456,10 @@ const IndexPage = ({ location }) => {
               <div className="trips-section-item__title">Český Krumlov</div>
               <div className="trips-section-item__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Integer vulputate sem a nibh rutrum consequat. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
+                Český Krumlov vás oslní jako barokní ohňostroj: renesanční a barokní domy na Latránu střídají malebná náměstí a uličky jak z pohádek. K nejznámějším památkám jižních Čech a také nejrozsáhlejším hradním areálům u nás i v Evropě patří hrad a zámek Český Krumlov s unikátním barokním divadlem.
+                </p>
+                <p>
+                Je to město zážitků i odpočinku: navštivte Kláštery Český Krumlov, Egon Schiele Art Centrum a další muzea a galerie, četné obchůdky s uměleckými předměty, hudební a divadelní festivaly, otáčivé hlediště v zámecké zahradě anebo Museum Fotoatelier Seidel, původní fotoateliér z roku 1905 s nostalgickou atmosférou starých časů. K posezení lákají spousty kaváren a hospůdek, a k tomu všemu samozřejmě šumí řeka Vltava se zvolna plujícími vory, což je další z klasických krumlovských radovánek.
                 </p>
               </div>
             </div>
@@ -469,14 +470,7 @@ const IndexPage = ({ location }) => {
               <div className="trips-section-item__title">Rožmberk</div>
               <div className="trips-section-item__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Integer vulputate sem a nibh rutrum consequat. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
-                </p>
-                <p>
-                  Suspendisse sagittis ultrices augue. Quisque porta.
-                  Suspendisse sagittis ultrices augue. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
+                Město spojené s významným šlechtickým rodem Rožmberků, kteří svými aktivitami přinesli prosperitu širokému okolí, leží v podhůří Šumavy mezi Českým Krumlovem a Lipnem. Dobře ho znají vodáci splouvající Vltavu a kvůli impozantnímu hradu i milovníci historických památek.
                 </p>
               </div>
             </div>
@@ -487,13 +481,8 @@ const IndexPage = ({ location }) => {
               <div className="trips-section-item__title">Zlatá Koruna</div>
               <div className="trips-section-item__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Integer vulputate sem a nibh rutrum consequat. Quisque porta.
-                  Suspendisse sagittis ultrices augue. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
+                Několik kilometrů od Českého Krumlova stojí na ostrohu, obtékaném ze tří stran řekou Vltavou, půvabný cisterciácký klášter, jeden z nejcennějších komplexů gotické architektury ve střední Evropě. Místo vyzařuje zvláštní poklidnou atmosféru, tolik odlišnou od hektického tempa dnešního světa.
                 </p>
-                <p>Quisque porta. Suspendisse sagittis ultrices augue.</p>
-                <p>Suspendisse sagittis ultrices augue.</p>
               </div>
             </div>
             <div className="trips-section-item">
@@ -503,11 +492,8 @@ const IndexPage = ({ location }) => {
               <div className="trips-section-item__title">Vyšší Brod</div>
               <div className="trips-section-item__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Integer vulputate sem a nibh rutrum consequat. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
+                Vyšší Brod Pod vodní nádrží Lipno Vltava protéká hlubokým zalesněným údolím, mine Čertovu stěnu a vzápětí se nad řekou objeví bílé zdi masivních budov, korunované půvabnou vysokou štíhlou věží. To vás v celé své kráse vítá cisterciácký klášter ve Vyšším Brodě s gotickým chrámem Nanebevzetí Panny Marie.
                 </p>
-                <p>Suspendisse sagittis ultrices augue.</p>
               </div>
             </div>
             <div className="trips-section-item">
@@ -517,11 +503,8 @@ const IndexPage = ({ location }) => {
               <div className="trips-section-item__title">Lipno</div>
               <div className="trips-section-item__desc">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Integer vulputate sem a nibh rutrum consequat. Quisque porta.
-                  Suspendisse sagittis ultrices augue.
+                Původní dřevařská obec se od poloviny 20. století, kdy byla dokončena vodní nádrž Lipno, proměňuje v rekreační středisko. Kromě řady penzionů, hotelů a kempů tu objevíte například aquapark, bobovou dráhu a bikepark, v zimě pak lyžařský areál a bruslařskou dráhu. Novinkou je stezka v korunách stromů.
                 </p>
-                <p>Suspendisse sagittis ultrices augue.</p>
               </div>
             </div>
           </div>
@@ -540,7 +523,7 @@ const IndexPage = ({ location }) => {
               Pavel Váňa, tel. 608826700
             </div>
             <div className="contact-section-listitem contact-section-listitem--third">
-              info@krumlovskydum.cz
+            michaela.vano@seznam.cz
             </div>
           </div>
         </div>

@@ -106,7 +106,7 @@ const IndexPage = ({ location }) => {
               Pavel Váňa, tel. 608826700
             </div>
             <div className="contact-section-listitem contact-section-listitem--third">
-              info@krumlovskydum.cz
+              michaela.vano@seznam.cz
             </div>
           </div>
         </div>
