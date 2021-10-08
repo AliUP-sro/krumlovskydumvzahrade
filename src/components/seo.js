@@ -20,14 +20,14 @@ function SEO({ description, lang, meta, title }) {
   )
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    //if (typeof window !== "undefined") {
     import('react-facebook-pixel')
       .then((x) => x.default)
       .then((ReactPixel) => {
         ReactPixel.init('1610144929189070')
         ReactPixel.pageView()
       })
-    }
+    //}
   }, [])
 
   const metaDescription = description || site.siteMetadata.description

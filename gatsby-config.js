@@ -15,12 +15,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-facebook-pixel`,
-    //   options: {
-    //     pixelId: '572734367294803',
-    //   },
-    // }
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        https: true,
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // {
